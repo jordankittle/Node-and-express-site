@@ -1,0 +1,9 @@
+extends layout.pug
+
+block content
+	h2 Oops! #{error.status} - #{error.message}
+	p
+		if error.source === 'projects'
+			a(href="/") Back to Project Directory
+		else
+			a(href="/") Back to Home

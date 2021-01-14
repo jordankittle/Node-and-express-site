@@ -1,0 +1,133 @@
+{
+	"projects": [
+		{
+			"id": "0",
+			"project_name": "Algorithm Visualizer",
+			"description": "A visualization of Dijkstra's shortest path finding algorithm",
+			"technologies": [
+							"Javascript",
+							"CSS",
+							"HTML"
+							],
+			"live_link": "https://jordankittle.github.io/algorithms",
+			"github_link": "https://github.com/jordankittle/algorithms",
+			"image_urls": [
+						"/static/images/projects/0/square.jpg",
+						"/static/images/projects/0/large_1.jpg",
+						"/static/images/projects/0/large_2.png",
+						"/static/images/projects/0/large_3.jpg",
+						"/static/images/projects/0/large_4.png"
+						]
+		},
+		{
+			"id": "1",
+			"project_name": "Pay",
+			"description": "A point of sale web app that accepts Bitcoin on-chain and lightning payments using the OpenNode API",
+			"technologies": [
+							"PHP",
+							"SQL",
+							"Javascript",
+							"CSS",
+							"HTML"
+							],
+			"live_link": "https://pay.jordankittle.com",
+			"github_link": "https://github.com/jordankittle",
+			"image_urls": [
+						"/static/images/projects/1/square.png",
+						"/static/images/projects/1/large_1.png",
+						"/static/images/projects/1/large_2.png",
+						"/static/images/projects/1/large_3.png"
+						]
+		},
+		{
+			"id": "2",
+			"project_name": "Phrase Hunter",
+			"description": "A gameshow programmed using object oriented programming",
+			"technologies": [
+							"Javascript",
+							"CSS",
+							"HTML"
+							],
+			"live_link": "https://jordankittle.github.io/oop-gameshow",
+			"github_link": "https://github.com/jordankittle/oop-gameshow",
+			"image_urls": [
+						"/static/images/projects/2/square.jpg",
+						"/static/images/projects/2/large_1.jpg",
+						"/static/images/projects/2/large_2.jpg",
+						"/static/images/projects/2/large_3.png"
+						]
+		},
+		{
+			"id": "3",
+			"project_name": "Pagination",
+			"description": "Student direcotry from database with pagination and search",
+			"technologies": [
+							"Javascript",
+							"CSS",
+							"HTML"
+							],
+			"live_link": "https://jordankittle.github.io/pagination-project",
+			"github_link": "https://github.com/jordankittle/pagination-project",
+			"image_urls": [
+						"/static/images/projects/3/square.jpg",
+						"/static/images/projects/3/large_1.jpg",
+						"/static/images/projects/3/large_2.png",
+						"/static/images/projects/3/large_3.png"
+						]
+		},
+		{
+			"id": "4",
+			"project_name": "Public API Requests",
+			"description": "An employee directory with data pulled from an API with search and lightbox",
+			"technologies": [
+							"Javascript",
+							"CSS",
+							"HTML"
+							],
+			"live_link": "https://jordankittle.github.io/public-api-requests",
+			"github_link": "https://github.com/jordankittle/public-api-requests",
+			"image_urls": [
+						"/static/images/projects/4/square.jpg",
+						"/static/images/projects/4/large_1.jpg",
+						"/static/images/projects/4/large_2.png",
+						"/static/images/projects/4/large_3.png",
+						"/static/images/projects/4/large_4.png"
+						]
+		},
+		{
+			"id": "5",
+			"project_name": "Interactive Form",
+			"description": "A mock form with real time validation",
+			"technologies": [
+							"Javascript",
+							"CSS",
+							"HTML"
+							],
+			"live_link": "https://jordankittle.github.io/interactive-form",
+			"github_link": "https://github.com/jordankittle/interactive-form",
+			"image_urls": [
+						"/static/images/projects/5/square.png",
+						"/static/images/projects/5/large_1.png",
+						"/static/images/projects/5/large_2.png",
+						"/static/images/projects/5/large_3.png"
+						]
+		},
+		{
+			"id": "6",
+			"project_name": "Encryption",
+			"description": "Text encryption algorithm with no processor blocking for large inputs",
+			"technologies": [
+							"Javascript",
+							"CSS",
+							"HTML"
+							],
+			"live_link": "https://jordankittle.com/crypt",
+			"github_link": "https://github.com/jordankittle",
+			"image_urls": [
+						"/static/images/projects/6/square.png",
+						"/static/images/projects/6/large_1.png",
+						"/static/images/projects/6/large_2.png"
+						]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+extends layout.pug
+
+block content
+	h2 Error #{error.status} - #{error.message}
+	p
+		if error.source
+			a(href="/") Back to Projects
+		else
+			a(href="/") Back to Home

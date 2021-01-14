@@ -1,0 +1,17 @@
+{
+  "name": "Node-and-express-site",
+  "version": "1.0.0",
+  "description": "Treehouse FSJS Project 6 - Static Node.js and Express Site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "keywords": [],
+  "author": "Jordan Kittle",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}
