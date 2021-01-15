@@ -3,8 +3,9 @@ extends layout.pug
 block content
 	h2= error.message
 	h5 Error #{error.status}
-	p
-		if error.source
-			a(href="/") Back to Projects
-		else
-			a(href="/") Back to Home
+	
+	a(href="/") ← Home
+	br
+	a#stack-trace-toggle(href='#',onclick='showStackTrace();return false')
+			| ❐ Show stack trace
+	pre#stack-trace= error.stack

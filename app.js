@@ -12,19 +12,25 @@ const mainRoutes = require('./routes');
 const projectRoutes = require('./routes/projects');
 app.use(mainRoutes);
 app.use('/projects', projectRoutes);
+app.use('/project', projectRoutes);
 
 
 //404 Error handler
 app.use((req, res, next) => {
-	const err = new Error('Page Not Found');
+	const err = new Error(`Page at ${req.originalUrl} Not Found`);
 	err.status = 404;
+	console.log(err.status);
+	console.log(err.message);
 	next(err);
 });
 
-//Global error handler
+//Global error handlers
+
 app.use((err, req, res, next) => {
 	err.status = err.status || 500;
 	err.message = err.message || 'An unknown error has occured';
+	console.log(err.status);
+	console.log(err.message);
 	res.locals.error = err;
 	res.status(err.status);
 	if (err.status === 404){

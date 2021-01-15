@@ -168,3 +168,9 @@ a:hover{
 .lead {
   font-size:105%;
 }
+
+/* Custom styles */
+
+#stack-trace{
+  display: none;
+} 
