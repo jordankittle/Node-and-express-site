@@ -3,10 +3,12 @@ const router = express.Router();
 const data = require('../data.json');
 const { projects } = data;
 
+//Default /projects router, if no project is specified, return the user to the home page
 router.get('/', (req, res) => {
 	res.redirect('/');
 });
 
+//Project router when the url contains a project. If project ID is invalid, route to error page
 router.get('/:id', (req, res, next) => {
 	const { id } = req.params;
 	if(isNaN(id) || id >= projects.length){

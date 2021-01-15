@@ -26,4 +26,6 @@ Changes:
 
 12.) Set .lead font-size to 105% in style.css - overrides foundation.css
 
-13.) Added /test-error route to demonstrate non-404 error handling.
+13.) Added /test-error route to demonstrate non-404 error handling
+
+14.) Added /test-error-2 route to demonstrate non-404 error handling without a message
