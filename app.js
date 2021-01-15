@@ -19,8 +19,6 @@ app.use('/project', projectRoutes);
 app.use((req, res, next) => {
 	const err = new Error(`Page at ${req.originalUrl} Not Found`);
 	err.status = 404;
-	console.log(err.status);
-	console.log(err.message);
 	next(err);
 });
 
@@ -29,7 +27,7 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
 	err.status = err.status || 500;
 	err.message = err.message || 'An unknown error has occured';
-	console.log(err.status);
+	console.log('Error:', err.status);
 	console.log(err.message);
 	res.locals.error = err;
 	res.status(err.status);

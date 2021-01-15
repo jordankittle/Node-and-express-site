@@ -3,7 +3,7 @@
 		{
 			"id": "0",
 			"project_name": "Algorithm Visualizer",
-			"description": "A visualization of Dijkstra's shortest path finding algorithm",
+			"description": "A visualization of Dijkstra's shortest path finding algorithm. Add walls and hills and watch as the algorithm navigates around and through. Each cell has a distance of 1 unit. Each hill cell has a distance of 5 units. Hill cells simulate traffic/congestion or vertical travel cost.",
 			"technologies": [
 							"Javascript",
 							"CSS",
@@ -42,7 +42,7 @@
 		{
 			"id": "2",
 			"project_name": "Phrase Hunter",
-			"description": "A phrase guessing game utilizing object oriented programming.",
+			"description": "A phrase guessing game utilizing object oriented programming. Try to guess the phrase before 5 wrong guesses. My mom loves this app and is pretty good at it too! Can you guess them all? If you do lose, you can choose to reveal the phrase.",
 			"technologies": [
 							"Javascript",
 							"CSS",
@@ -60,7 +60,7 @@
 		{
 			"id": "3",
 			"project_name": "Pagination",
-			"description": "Student direcotry from database with pagination and search",
+			"description": "This is a mock student directory with pagination and real-time search filtering. All data is read from a .json database file then added to the DOM.",
 			"technologies": [
 							"Javascript",
 							"CSS",
@@ -78,7 +78,7 @@
 		{
 			"id": "4",
 			"project_name": "Public API Requests",
-			"description": "An employee directory with data pulled from an API with search and lightbox.",
+			"description": "A mock employee directory with data pulled from a public API. Each page load will display new employees and the search box provides real-time search filtering. Clicking an employee will bring up a lightbox that shows more information and provides previous and next buttons to navigate the list.",
 			"technologies": [
 							"Javascript",
 							"CSS",
@@ -97,7 +97,7 @@
 		{
 			"id": "5",
 			"project_name": "Interactive Form",
-			"description": "A mock form with real time and submission validation.",
+			"description": "A mock form with real time and submission validation. The form will only submit when all validation has been satisfied. Each section will inform the user immediately if there is a problem.",
 			"technologies": [
 							"Javascript",
 							"CSS",
@@ -115,7 +115,7 @@
 		{
 			"id": "6",
 			"project_name": "Encryption",
-			"description": "A fun and unique text encryption algorithm with no processor blocking when working with large inputs. Will split input into blocks and send them through the algorithm sequentially with delays to free up processor. This was the first substantial program I ever wrote.",
+			"description": "A fun and unique text encryption algorithm with no processor blocking when working with large inputs. Will split input into blocks and send them through the algorithm sequentially with delays to free up processor. This was the first substantial program I ever wrote. Data in the message and key input areas can be converted to and from binary to facilitate error free transmission.",
 			"technologies": [
 							"Javascript",
 							"CSS",
