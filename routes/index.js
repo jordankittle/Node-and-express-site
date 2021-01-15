@@ -11,4 +11,9 @@ router.get('/about', (req, res) => {
 	res.render('about');
 });
 
+router.get('/test-error', (req, res, next) => {
+	const err = new Error('This is a test error');
+	next(err);
+});
+
 module.exports = router;

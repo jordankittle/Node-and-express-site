@@ -22,7 +22,7 @@
 		{
 			"id": "1",
 			"project_name": "Pay",
-			"description": "A point of sale web app that accepts Bitcoin on-chain and lightning payments using the OpenNode API",
+			"description": "A point of sale web app that accepts Bitcoin on-chain and lightning payments using the OpenNode API. Settings and behavior such as payment amount and time-limits can be modified with url parameters. A scanable receipt is generated after successful payment.",
 			"technologies": [
 							"PHP",
 							"SQL",
@@ -42,7 +42,7 @@
 		{
 			"id": "2",
 			"project_name": "Phrase Hunter",
-			"description": "A gameshow programmed using object oriented programming",
+			"description": "A phrase guessing game utilizing object oriented programming.",
 			"technologies": [
 							"Javascript",
 							"CSS",
@@ -69,8 +69,8 @@
 			"live_link": "https://jordankittle.github.io/pagination-project",
 			"github_link": "https://github.com/jordankittle/pagination-project",
 			"image_urls": [
-						"/static/images/projects/3/square.jpg",
-						"/static/images/projects/3/large_1.jpg",
+						"/static/images/projects/3/square.png",
+						"/static/images/projects/3/large_1.png",
 						"/static/images/projects/3/large_2.png",
 						"/static/images/projects/3/large_3.png"
 						]
@@ -78,7 +78,7 @@
 		{
 			"id": "4",
 			"project_name": "Public API Requests",
-			"description": "An employee directory with data pulled from an API with search and lightbox",
+			"description": "An employee directory with data pulled from an API with search and lightbox.",
 			"technologies": [
 							"Javascript",
 							"CSS",
@@ -97,7 +97,7 @@
 		{
 			"id": "5",
 			"project_name": "Interactive Form",
-			"description": "A mock form with real time validation",
+			"description": "A mock form with real time and submission validation.",
 			"technologies": [
 							"Javascript",
 							"CSS",
@@ -115,7 +115,7 @@
 		{
 			"id": "6",
 			"project_name": "Encryption",
-			"description": "Text encryption algorithm with no processor blocking for large inputs",
+			"description": "A fun and unique text encryption algorithm with no processor blocking when working with large inputs. Will split input into blocks and send them through the algorithm sequentially with delays to free up processor. This was the first substantial program I ever wrote.",
 			"technologies": [
 							"Javascript",
 							"CSS",
