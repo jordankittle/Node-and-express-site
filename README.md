@@ -6,7 +6,7 @@ Changes:
 
 2.) Changed pargraphh font size in style.css from 15px to 12px
 
-3.) Changed button:hover in style.css from #111 to #1779ba
+3.) Changed button:hover color in style.css from #111 to #1779ba
 
 4.) Added portfolio class to portfolio picture and changed border to 1px solid white in style.css
 
